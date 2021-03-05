@@ -81,7 +81,7 @@ public class SanityBuyProduct {
 	 * 		When: click on result item
 	 *  	Then: Getting into product
 	 */
-	@Test(priority = 2, enabled = false, description = "verify date")
+	@Test(priority = 2, enabled = true, description = "verify date")
 	public void getIntoProduct() throws InterruptedException, IOException {	
 		Assert.assertTrue(main.getIntoProduct("משקולות יד דאמבלס משושה עם אחיזה נוחה לידיים"));
 	}
