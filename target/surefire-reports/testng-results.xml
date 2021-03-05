@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31172" started-at="2021-03-05T11:39:09 IST" finished-at="2021-03-05T11:39:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31172" started-at="2021-03-05T11:39:09 IST" finished-at="2021-03-05T11:39:40 IST">
+      <class name="tests.SanityBuyProduct">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.SanityBuyProduct@578486a3]" name="beforeClass" is-config="true" duration-ms="16116" started-at="2021-03-05T11:39:09 IST" finished-at="2021-03-05T11:39:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.SanityBuyProduct@578486a3]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2021-03-05T11:39:25 IST" finished-at="2021-03-05T11:39:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SanityBuyProduct.searchProduct() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchProduct()[pri:1, instance:tests.SanityBuyProduct@578486a3]" name="searchProduct" duration-ms="10641" started-at="2021-03-05T11:39:25 IST" description="verify date" finished-at="2021-03-05T11:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.SanityBuyProduct@578486a3]" name="afterMethod" is-config="true" duration-ms="1246" started-at="2021-03-05T11:39:36 IST" finished-at="2021-03-05T11:39:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=SanityBuyProduct.searchProduct()[pri:1, instance:tests.SanityBuyProduct@578486a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SanityBuyProduct@578486a3]" name="afterClass" is-config="true" duration-ms="3008" started-at="2021-03-05T11:39:37 IST" finished-at="2021-03-05T11:39:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SanityBuyProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
